@@ -1,0 +1,18 @@
+// .Location {
+//   display: flex;
+//   // justify-content: center;
+//   align-items: center;
+//   // background-color: #c1dbf1;
+// }
+
+.LocButton {
+  display: flex;
+  height: 53px;
+  width: 45px;
+  justify-content: center;
+  margin-left: 10%;
+  .icon {
+    height: 48px;
+    margin-bottom: 15px;
+  }
+}

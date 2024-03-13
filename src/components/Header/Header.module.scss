@@ -1,0 +1,25 @@
+@import "../../Utils/Main.module.scss";
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Nova+Square&display=swap");
+.header {
+  background-color: $my-card-color;
+  width: 80%;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  .title {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+  }
+  .menuButton {
+    margin-left: auto;
+    padding: 10px;
+  }
+}
