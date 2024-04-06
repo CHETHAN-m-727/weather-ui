@@ -1,0 +1,70 @@
+.Sidebar {
+  width: 100%;
+  height: 100%;
+  background-color: #8e9199;
+  color: white;
+  overflow-y: hidden;
+
+  .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+
+    .logo_img {
+      width: 50px;
+      border-radius: 100%;
+    }
+  }
+  .temp {
+    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 30%;
+    margin-bottom: 10px;
+    // margin: auto;
+    gap: 5px;
+  }
+
+  .dashboard,
+  .map,
+  .location,
+  .calendar {
+    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .system {
+    margin-top: auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    p {
+      padding-top: 10px;
+    }
+
+    .sitteng,
+    .logout {
+      gap: 5px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+    }
+  }
+}

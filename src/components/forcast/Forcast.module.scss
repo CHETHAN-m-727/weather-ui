@@ -1,0 +1,74 @@
+.forcast {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .date {
+      .month {
+        font-size: x-large;
+        font-weight: 400;
+      }
+    }
+    .profile_notification {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .cityName {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    .city {
+      font-size: x-large;
+    }
+    .more {
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: center;
+    }
+  }
+  .weather_overview {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin: 0px 50px;
+    width: auto;
+    height: fit-content;
+    background-color: #fbfbfb;
+    padding: 20px;
+    .wind {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fbfbfb;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 10px;
+      gap: 1rem;
+      .wind_value {
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .Average_Weekly_temp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+}

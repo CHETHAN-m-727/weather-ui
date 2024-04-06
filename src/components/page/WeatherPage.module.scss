@@ -1,0 +1,19 @@
+.weatherPage {
+  background-color: #eaebec;
+  justify-content: center;
+  align-content: center;
+  overflow-y: hidden;
+  display: flex;
+  margin: auto;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  gap: 20px;
+  .Sidebar {
+    width: 20%;
+  }
+  .Forcast {
+    width: 50%;
+  }
+}

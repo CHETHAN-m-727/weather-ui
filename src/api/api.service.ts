@@ -18,9 +18,9 @@ export const tempApi = (cityName: string) => {
   });
 };
 
-export const tempWithlotAndLanApi = (Latitude: string, Longitude: string) => {
+export const tempWithlotAndLanApi = (reqBody: any) => {
   console.log("BASE_URL", BASE_URL);
-  const url = `${BASE_URL}/WeatherByLonAndLat?Latitude=${Latitude}&Longitude=${Longitude}`;
+  const url = `${BASE_URL}/WeatherByLonAndLat?Latitude=${reqBody.latitude}&Longitude=${reqBody.longitude}`;
 
   return new Promise((resolve, reject) => {
     axios

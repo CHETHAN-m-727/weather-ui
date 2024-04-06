@@ -18,5 +18,5 @@
     "typeRoots": ["node_modules/@types", "src/types"],
     "baseUrl": "./src"
   },
-  "include": ["src"]
+  "include": ["src", "src/components/page"]
 }
