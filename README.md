@@ -40,5 +40,12 @@ To run this project locally, follow these steps:
    ```bash
    npm start
 
+## Backend 🖥️
+The backend for this project is built with Node.js and is hosted on Render. You can find the code on GitHub: [Weather API Backend](https://github.com/CHETHAN-m-727/weather-API). Setup instructions are available in the repository.
+
+## Hosted Backend 🌐
+The backend is hosted on Render. You can access the API documentation and endpoints here: [Weather API Documentation](https://weather-api-t3nv.onrender.com/docs).
+
+
 ## Contributing 🤝
 Contributions are welcome! If you have any improvements or suggestions, please create a pull request or open an issue.
