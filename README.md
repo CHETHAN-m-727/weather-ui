@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/CHETHAN-m-727/weather-ui.git
 2. Navigate to the project directory:
    ```bash
-   cd weather-project
+   cd weather-ui
 3. Install the dependencies:
    ```bash
    npm install
