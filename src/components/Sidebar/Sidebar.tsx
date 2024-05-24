@@ -17,7 +17,7 @@ const Sidebar = () => {
       <div className={style.wrapper}>
         <div className={style.logo}>
           <img className={style.logo_img} src={logo} alt="logo" />
-          <p>Weather app</p>
+          <p>Weather</p>
         </div>
         <hr />
 
